@@ -1,0 +1,2 @@
+https://github.com/jsquared21/Intro-to-Java-Programming
+https://github.com/maxalthoff/intro-to-java-exercises
