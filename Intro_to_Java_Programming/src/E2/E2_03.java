@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class E3_03 {
+public class E2_03 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter a value for feet: ");  // print / println
