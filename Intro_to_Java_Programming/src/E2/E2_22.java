@@ -23,6 +23,13 @@ public class E2_22 {
 		remainingAmount = remainingAmount % 10;
 		int numberOfNickels = remainingAmount / 5;
 		remainingAmount = remainingAmount % 5;
-		int numberofPennies = remainingAmount;
+		int numberOfPennies = remainingAmount;
+		
+		System.out.println("Your amount " + amount + " consist of");
+		System.out.println("    " + numberOfOneDollars + " dollar");
+		System.out.println("    " + numberOfOneDollars + " quarters");
+		System.out.println("    " + numberOfOneDollars + " dimes");
+		System.out.println("    " + numberOfOneDollars + " nickels");
+		System.out.println("    " + numberOfPennies + " pennis");
 	}
 }
