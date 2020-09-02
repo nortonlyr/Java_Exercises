@@ -4,6 +4,25 @@
   and displays the cost of the trip.
 */
 
-public class E2_23 {
+import java.util.Scanner;
 
+public class E2_23 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the driving distance: ");
+		double distance = input.nextDouble();
+		System.out.println("Enter miles per gallon: ");
+		double mpg = input.nextDouble();
+		System.out.println("Enter price per gallon: ");
+		double ppg = input.nextDouble();
+		
+		double costToDrive = costOfDriving(distance, mpg, ppg);
+		
+		System.out.printf("The cost of driving is $%.2f\n", costToDrive);
+	}
+	
+	private static double costOfDriving(double distance, double mpg, double ppg) {
+		double gallonsNeeded = distance / mpg;
+		return gallonsNeeded * ppg;
+	}
 }
