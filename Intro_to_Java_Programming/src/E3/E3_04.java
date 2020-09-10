@@ -31,6 +31,6 @@ public class E3_04 {
 			case 12: output.append("December"); break;
 			}
 		}
-		return output toString();
+		return output.toString();
 	}
 }
