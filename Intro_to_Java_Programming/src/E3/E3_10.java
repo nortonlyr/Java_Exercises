@@ -7,5 +7,12 @@
 import java.util.Scanner;
 
 public class E3_10 {
-
+	public static void main(String[] args) {
+		int number1 = (int)(Math.random()*100);
+		int number2 = (int)(Math.random()*100);
+		
+		System.out.println("What is " + number1 + " + " + number2 + "? ");
+		Scanner input = new Scanner(System.in);
+		int answer = input.nextInt();
+	}
 }
