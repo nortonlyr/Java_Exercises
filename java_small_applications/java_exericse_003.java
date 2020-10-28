@@ -18,4 +18,14 @@ public class java_exericse_003 {
 		}
 		System.out.println("輸入日期為該 (" + dateStr[0] + ")年的第" + dayNum + "天");
 	}
-}
+
+//根據年份判斷閏年還是普通年
+
+	public static boolean leapYear(String year) {
+		int years = Integer.parseInt(year);
+		if((years%4 == 0 && years%100 !=0) || years % 400 == 0) {
+			return true;
+			}
+		return false;
+	}
+
