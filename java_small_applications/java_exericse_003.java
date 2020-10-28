@@ -32,14 +32,26 @@ public class java_exericse_003 {
 	public static int month(String month, String flag) {
 		int dayNum = 0;
 		switch (month) {
-		case "01": dayNum = 0; break;
-		case "02": dayNum = month("01", flag) + 31; break;
-		case "03": 
-			if ("0".equals(flag)) {
-				dayNum = month("02", flag) + 28;
-			} else {
-				dayNum = month("02", flag) + 29;
-			}
+			case "01": dayNum = 0; break;
+			case "02": dayNum = month("01", flag) + 31; break;
+			case "03": 
+				if ("0".equals(flag)) {
+					dayNum = month("02", flag) + 28;
+				} else {
+					dayNum = month("02", flag) + 29;
+				}
+				break;
+			case "04": dayNum = month("03", flag) + 31; break;
+			case "05": dayNum = month("04", flag) + 30; break;
+			case "06": dayNum = month("05", flag) + 31; break;
+			case "07": dayNum = month("06", flag) + 30; break;
+			case "08": dayNum = month("07", flag) + 31; break;
+			case "09": dayNum = month("08", flag) + 31; break;
+			case "10": dayNum = month("09", flag) + 30; break;
+			case "11": dayNum = month("10", flag) + 31; break;
+			case "12": dayNum = month("11", flag) + 30; break;
 		}
+		return dayNum;
 	}
+}
 
