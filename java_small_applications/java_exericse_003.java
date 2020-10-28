@@ -28,4 +28,18 @@ public class java_exericse_003 {
 			}
 		return false;
 	}
+	
+	public static int month(String month, String flag) {
+		int dayNum = 0;
+		switch (month) {
+		case "01": dayNum = 0; break;
+		case "02": dayNum = month("01", flag) + 31; break;
+		case "03": 
+			if ("0".equals(flag)) {
+				dayNum = month("02", flag) + 28;
+			} else {
+				dayNum = month("02", flag) + 29;
+			}
+		}
+	}
 
