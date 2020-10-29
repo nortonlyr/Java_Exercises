@@ -1,4 +1,4 @@
-
+//³Ë·¨¿ÚÔE±í
 public class java_exercise_004 {
 	public static void main(String[] args) {
 		
