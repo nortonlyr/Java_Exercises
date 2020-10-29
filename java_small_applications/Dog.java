@@ -1,12 +1,21 @@
 
 public class Dog {
-	protected void bark() {
-		System.out.println("ÍôÍô£¬ß^í");
+	private String name;
+	private int age;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public int getAge() {
+		return age;
+	}
+	
+	public void setAge(int age) {
+		this.age = age;
 	}
 }
 
-class Teddy extends Dog {
-	void bark() {
-		System.out.println("ÍôÍô£¬íß@ß…¸úÖøÎÒ");
-	}
-}
