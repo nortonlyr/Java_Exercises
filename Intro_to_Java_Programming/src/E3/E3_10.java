@@ -14,5 +14,11 @@ public class E3_10 {
 		System.out.println("What is " + number1 + " + " + number2 + "? ");
 		Scanner input = new Scanner(System.in);
 		int answer = input.nextInt();
+		
+		// Display result
+		if (number1 + number2 == answer)
+			System.out.println("Your are correct!");
+		else
+			System.out.println("You are wrong " + number1 + " + " + number2 + " should be " + (number1 + number2));
 	}
 }
