@@ -39,6 +39,7 @@ public class E3_13 {
 					201400 * 0.33;
 				if (income > 372950)
 					tax += (income - 372950) * 0.35;
+				break;
 		}
 	}
 	
