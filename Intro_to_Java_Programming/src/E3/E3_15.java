@@ -12,5 +12,23 @@ $1,000.
 import java.util.Scanner;
 
 public class E3_15 {
-
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		// Generate a random three-digit number
+		int lottery = (int)(Math.random() * 1000);
+		
+		//Prompt the user to enter a three-digit number
+		System.out.print("Enter a three-digit number: ");
+		int guess = input.nextInt();
+		
+		// Extract digits from lottery
+		int lotteryDigit1 = lottery / 100;
+		int remainingDigits = lottery % 100;
+		int lotteryDigits2 = remainingDigits / 10;
+		int lotteryDigits3 = remainingDigits % 10;
+		
+		//
+		
+	}
 }
