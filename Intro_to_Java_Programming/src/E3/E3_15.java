@@ -28,7 +28,22 @@ public class E3_15 {
 		int lotteryDigits2 = remainingDigits / 10;
 		int lotteryDigits3 = remainingDigits % 10;
 		
-		//
+		// Extract digits from guess
+		int guessDigits1 = guess / 100;
+		int remainingDigits = guess % 100;
+		int guessDigit2 = remainingDigits / 10;
+		int guessDigit3 = remainingDigits % 10;
+		
+		System.out.println("The lottery number is " + lottery);
+		
+		// Check the guess
+		if (guess == lottery)
+			System.out.println("Exact math: you win $ 10,000");
+		if (guessDigit1 == lotteryDigits2)
+		{
+			
+		}
+		
 		
 	}
 }
