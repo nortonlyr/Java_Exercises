@@ -10,5 +10,23 @@ or draws.
 import java.util.Scanner;
 
 public class E3_17 {
-
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		// Generate a random integer 0, 1, or 2
+		int computer = (int)(Math.random()*3);
+		
+		// Prompt the user to enter a number 0, 1, or 2
+		System.out.print("scissor(0), rock(1), paper(2): ");
+		int user = input.nextInt();
+		
+		System.out.print("The computer is ");
+		switch (computer)
+		{
+		case 0: System.out.print("scissor."); break;
+		case 1: System.out.print("rock."); break;
+		case 2: System.out.print("paper."); break;
+		}
+		
+	}
 }
