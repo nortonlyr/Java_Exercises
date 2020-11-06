@@ -23,9 +23,17 @@ public class E3_17 {
 		System.out.print("The computer is ");
 		switch (computer)
 		{
-		case 0: System.out.print("scissor."); break;
-		case 1: System.out.print("rock."); break;
-		case 2: System.out.print("paper."); break;
+			case 0: System.out.print("scissor."); break;
+			case 1: System.out.print("rock."); break;
+			case 2: System.out.print("paper."); break;
+		}
+		
+		System.out.print(" You are ");
+		switch (user)
+		{
+			case 0: System.out.println("scissor"); break;
+			case 1: System.out.println("rock"); break;
+			case 2: System.out.println("paper ");
 		}
 		
 	}
