@@ -19,5 +19,8 @@ public class E3_19 {
 		System.out.print(" Edge 2 points x, y: ");
 		double x2 = input.nextDouble();
 		double y2 = input.nextDouble();
+		System.out.print(" Edge 3 points x, y: ");
+		double x3 = input.nextDouble();
+		double y3 = input.nextDouble();
 	}
 }
