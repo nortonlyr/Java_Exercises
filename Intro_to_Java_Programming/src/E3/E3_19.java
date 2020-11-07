@@ -22,5 +22,10 @@ public class E3_19 {
 		System.out.print(" Edge 3 points x, y: ");
 		double x3 = input.nextDouble();
 		double y3 = input.nextDouble();
+		
+		// Test if input is valid
+		boolean valid = (x1 + y1 > x3 + y3 && x2 + y2 > x3 + y3) || 
+				(x1 + y1 > x2 + y2 && x3 + y3 > x2 + y2) ||
+				x3 + y3 > x1 + y1 && x2 + y2 > x1 + y1);
 	}
 }
