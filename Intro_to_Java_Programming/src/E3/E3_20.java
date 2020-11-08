@@ -14,6 +14,9 @@ import java.util.Scaner;
 
 public class E3_20 {
 	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
 		
+		// Prompt the user to enter a temperature and a wind speed
+		System.out.print("Enter the temperature in Fahrenheit " + "between -58F and 41F: ");
 	}
 }
