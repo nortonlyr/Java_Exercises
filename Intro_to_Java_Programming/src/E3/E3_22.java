@@ -18,5 +18,8 @@ public class E3_22 {
 		
 		// Check whether the point is within the circle
 		boolean withinCircle = (Math.pow(Math.pow(x, 2) + Math.pow(y,  2), 0.5) <= 10);
+		
+		// Display results
+		System.out.println("Point (" + x + "," + y + ")" + ((withinCircle) ? "in " : "not in") + "the circile");
 	}
 }
