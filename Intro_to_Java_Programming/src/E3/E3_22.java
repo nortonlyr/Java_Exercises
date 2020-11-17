@@ -10,5 +10,10 @@ import java.util.Scanner;
 public class E3_22 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		
+		// Prompt the user to enter a point
+		System.out.print("Enter a point with two coordinates: ");
+		double x = input.nextDouble();
+		double y = input.nextDouble();
 	}
 }
