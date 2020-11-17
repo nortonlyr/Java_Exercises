@@ -15,5 +15,8 @@ public class E3_22 {
 		System.out.print("Enter a point with two coordinates: ");
 		double x = input.nextDouble();
 		double y = input.nextDouble();
+		
+		// Check whether the point is within the circle
+		boolean withinCircle = (Math.pow(Math.pow(x, 2) + Math.pow(y,  2), 0.5) <= 10);
 	}
 }
