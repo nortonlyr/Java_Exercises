@@ -9,7 +9,15 @@ vertical distance to (0, 0) is less than or equal to 5.0 / 2. Test your program 
 cover all cases.) Here are two sample runs.
 */
 
+import java.util.Scanner;
 
 public class E3_23 {
-
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		// Prompt the user to enter a point(x,y)
+		System.out.print("Enter a point with two coordinates: ");
+		double x = input.nextDouble();
+		double y = input.nextDouble();
+	}
 }
