@@ -32,5 +32,14 @@ public class E3_24 {
 		case 12: System.out.print("Queen"); break;
 		case 13: System.out.print("King");
 		}
+		
+		System.out.print(" of ");
+		switch (suit)  // get suit
+		{
+		case 0: System.out.println("Clubs"); break;
+		case 1: System.out.println("Diamond"); break;
+		case 2: System.out.println("Hearts"); break;
+		case 3: System.out.println("Spades");
+		}
 	}
 }
