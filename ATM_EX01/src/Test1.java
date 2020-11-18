@@ -17,5 +17,13 @@ public class Test1 {
 		StringcarNum3 = "1001";
 		String password3 = "123456";
 		double balance3 = 30000;
+		
+		System.out.println("欢迎来到银行！");
+		while (1==1) {
+			System.out.println("请输入卡号: ");
+			String carNum=in.next();
+			System.out.println("请输入密码: ");
+			String password=in.next();
+		}(
 	}
 }
