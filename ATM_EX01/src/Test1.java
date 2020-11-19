@@ -4,7 +4,7 @@ public class Test1 {
 	
 	public static void main(String[] args) {
 		
-		Scanner in = new Scanner(System.in)
+		Scanner in = new Scanner(System.in);
 				
 		String cardNum1 = "1001";
 		String password1 = "123456";
