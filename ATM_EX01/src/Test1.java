@@ -42,6 +42,23 @@ public class Test1 {
 				System.out.println("卡號密碼輸入錯誤，請重新輸入! ");
 				continue;
 			}
+			while(1==1) {
+				System.out.println("請輸入要辦理的業務: 1.存款 2. 取款 3. 退出: ");
+				int choice = in.nextInt();
+			
+				if(choice==1) {
+					System.out.println("請輸入存款金額: ");
+					double money1 = in.nextDouble();
+					if
+				}else if(choice==2) {
+					
+				}else if(choice==3) {
+					System.out.println("辦理結束, 請收好卡片! ");
+					break;
+				}else {
+					System.out.println("輸入錯誤, 請重新選擇! ");
+				}
+			}
 		}
 	}
 }
