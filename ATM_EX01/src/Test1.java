@@ -49,7 +49,10 @@ public class Test1 {
 				if(choice==1) {
 					System.out.println("請輸入存款金額: ");
 					double money1 = in.nextDouble();
-					if
+					if (money1>0) {
+						balance = balance + money1;
+						System.out.println("存款成功, 存入元, 余額元 ");
+					}
 				}else if(choice==2) {
 					
 				}else if(choice==3) {
