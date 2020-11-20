@@ -19,6 +19,7 @@ public class Test1 {
 		double balance3 = 30000;
 		
 		System.out.println("欢迎来到银行！");
+		int count = 0;
 		while (1==1) {
 			System.out.println("请输入卡号: ");
 			String carNum=in.next();
@@ -42,6 +43,7 @@ public class Test1 {
 				System.out.println("卡號密碼輸入錯誤，請重新輸入! ");
 				continue;
 			}
+		
 			
 			while(1==1) {
 				System.out.println("請輸入要辦理的業務: 1.存款 2. 取款 3. 退出: ");
@@ -58,12 +60,12 @@ public class Test1 {
 					}
 				}else if(choice==2) {
 					System.out.println("請輸入取款金額: ");
-					double money1 = in.nextDouble();
-					if (money1>0) {
-						balance = balance + money1;
-						System.out.println("取款成功, 取出" + money1 + "元, 余額" + balance + "元 ");
+					double money2 = in.nextDouble();
+					if (money2>0 && money2<=balance) {
+						balance = balance + money2;
+						System.out.println("取款成功, 取出" + money2 + "元, 余額" + balance + "元 ");
 					} else {
-						System.out.println("存款金額輸入錯誤! ");
+						System.out.println("取款金額輸入錯誤! ");
 					}
 				}else if(choice==3) {
 					System.out.println("辦理結束, 請收好卡片! ");
@@ -73,6 +75,7 @@ public class Test1 {
 					continue;
 				}
 			}
+		}
 		}
 	}
 }
