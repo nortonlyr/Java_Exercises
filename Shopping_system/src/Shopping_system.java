@@ -111,10 +111,15 @@ public class Shopping_system {
 									System.out.println("金额不足！");
 							}else {
 								System.out.println("收款"+money+"元，应付款"+total+"元，找零"+(money-total)+"元");
-								System.out.println("欢迎下次再来！");;
+								System.out.println("欢迎下次再来！");
 							}
 						}
-						
+						else if(choice2==3) {
+							System.out.println("开始抽奖。。。。正在生产幸运数字。。。。");
+							double r=Math.random();
+							int n=(int)(r*100+1);
+							System.out.println("幸运数字是："+n);
+						}
 					}
 				}
 			}
