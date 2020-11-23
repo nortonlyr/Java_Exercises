@@ -36,7 +36,12 @@ public class Shopping_system {
 							if (choice21==1) {
 								String clist="";
 								while(1==1) {
-									
+									System.out.println("请输入姓名：");
+									String name1=in.next();
+									System.out.println("请输入年龄：");
+									int age1 = in.nextInt();
+									clist=clist+name1+"----"+age1+"\n";
+									System.out.println("添加成功！继续添加请输入1， 输入其他内容停止：");
 								}
 							}
 						}
