@@ -96,6 +96,19 @@ public class Shopping_system {
 								double t=pPrice*pnum;
 								total=total+t;
 								System.out.println("当前添加的是："+pName+"数量："+pnum+"总价："+t);
+								
+								System.out.println("结算请输入1， 输入其他值则继续添加：");
+								int choice=in.nextInt();
+								if(choice==1) {
+										break;
+								}
+							}
+							
+							System.out.println("合计应付款："+total);
+							System.out.println("请输入付款金额：");
+							double money=in.nextDouble();
+							if(money<=total) {
+									System.out.println("金额不足！");
 							}
 						}
 						
