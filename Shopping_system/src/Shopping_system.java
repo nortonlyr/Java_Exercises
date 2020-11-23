@@ -89,7 +89,13 @@ public class Shopping_system {
 								}else if(pid=103) {
 										pName="香蕉";
 										pPrice=3;
+								}else {
+										System.out.println("没有此商品！");
 								}
+								
+								double t=pPrice*pnum;
+								total=total+t;
+								System.out.println("当前添加的是："+pName+"数量："+pnum+"总价："+t);
 							}
 						}
 						
