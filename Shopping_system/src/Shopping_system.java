@@ -83,7 +83,10 @@ public class Shopping_system {
 								if(pid==101) {
 										pName="Æ»¹û";
 										pPrice=5;
-;								}
+								}else if(pid=102){
+									pName="Àæ×Ó";
+									pPrice=6;
+								}
 							}
 						}
 						
