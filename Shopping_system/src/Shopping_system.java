@@ -42,6 +42,20 @@ public class Shopping_system {
 									int age1 = in.nextInt();
 									clist=clist+name1+"----"+age1+"\n";
 									System.out.println("添加成功！继续添加请输入1， 输入其他内容停止：");
+									String choice3=in.next();
+									if("1".equals(choice3)) {
+										continue;
+									} else {
+										System.out.println(clist);
+										break;
+									}
+								}
+							} else if (choice21==2) {
+								int up30=0;
+								int down30=0;
+								int i=1;
+								while(i<=3) {
+									System.out.println("请输入姓名：");
 								}
 							}
 						}
