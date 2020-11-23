@@ -56,7 +56,34 @@ public class Shopping_system {
 								int i=1;
 								while(i<=3) {
 									System.out.println("请输入姓名：");
+									String name2=in.next();
+									System.out.println("请输入年龄：");
+									int age2=in.nextInt();
+									if(age2>=30) {
+										up30++;
+									} else {
+										down30++;
+									}
+									i++;
 								}
+								System.out.println("30岁以上比例："+up30/3.0*100+"%");
+								System.out.println("30岁以下比例："+down30/3.0*100+"%");
+							}else {
+								continue;
+							}
+						}else if (choice2==2) {
+							System.out.println("商品列表：101.苹果 5元 102.梨子 6元 103.香蕉 3元");
+							double total=0;
+							while(1==1) {
+								System.out.println("请输入商品编号：");
+								int pid=in.nextInt();
+								System.out.println("请输入商品数量：");
+								int pnum=in.nextInt();
+								String pName="";
+								if(pid==101) {
+										pName="苹果";
+										pPrice=5;
+;								}
 							}
 						}
 						
