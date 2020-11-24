@@ -119,7 +119,28 @@ public class Shopping_system {
 							double r=Math.random();
 							int n=(int)(r*100+1);
 							System.out.println("幸运数字是："+n);
+							if(n<=5) {
+								System.out.println("恭喜获得一等奖：500元购物卷！");
+							}else if(n<=15) {
+								System.out.println("恭喜获得二等奖：100元话费！");
+							}else {
+								System.out.println("谢谢惠顾！");
+							}
 						}
+						else if(choice2==4) {
+							continue;
+						}else {
+							System.out.println("输入错误");
+							continue;
+						}
+					}
+				}else {
+					cout++;
+					if(count>=3) {
+						System.out.println("已经三次输入错误，强制退出！");
+						break;
+					}else {
+						System.out.println("输入错误，请重新输入！");
 					}
 				}
 			}
