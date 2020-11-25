@@ -135,15 +135,20 @@ public class Shopping_system {
 						}
 					}
 				}else {
-					cout++;
+					count++;
 					if(count>=3) {
 						System.out.println("已经三次输入错误，强制退出！");
 						break;
 					}else {
 						System.out.println("输入错误，请重新输入！");
+						continue;
 					}
 				}
 			}
+	}else if(choice1==2) {
+		System.out.println("退出系统！");
+	}else {
+		System.out.println("输入错误！");
 	}
 	}
 }
