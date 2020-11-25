@@ -84,10 +84,10 @@ public class Shopping_system {
 								if(pid==101) {
 										pName="Æ»¹û";
 										pPrice=5;
-								}else if(pid=102){
+								}else if(pid==2){
 										pName="Àæ×Ó";
 										pPrice=6;
-								}else if(pid=103) {
+								}else if(pid==103) {
 										pName="Ïã½¶";
 										pPrice=3;
 								}else {
