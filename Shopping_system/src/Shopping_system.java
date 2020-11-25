@@ -80,6 +80,7 @@ public class Shopping_system {
 								System.out.println("请输入商品数量：");
 								int pnum=in.nextInt();
 								String pName="";
+								double pPrice=0;
 								if(pid==101) {
 										pName="苹果";
 										pPrice=5;
