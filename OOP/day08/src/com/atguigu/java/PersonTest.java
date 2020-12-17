@@ -2,6 +2,13 @@ package com.atguigu.java;
 
 
 //测试类
+//创建类的对象 = 累得实例化 = 实例化类
+/*
+类和对象的使用（面向对象思想落地的实现），
+1. 创建类，设计类的成员
+2. 创建类的对象
+3. 通过“对象.属性“或者"对象.方法"调用对象的结构
+*/
 public class PersonTest {
 	public static void main(String[] args) {
 		//创建Person类的对象
