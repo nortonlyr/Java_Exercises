@@ -16,6 +16,7 @@ public class PersonTest {
 		//调用方法：“对象.方法”
 		p1.eat();
 		p1.sleep();
+		p1.talk("Chinese");
 	}
 }
 
