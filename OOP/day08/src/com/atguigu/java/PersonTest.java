@@ -8,6 +8,9 @@ package com.atguigu.java;
 1. 创建类，设计类的成员
 2. 创建类的对象
 3. 通过“对象.属性“或者"对象.方法"调用对象的结构
+
+创建了一个类的多个对象， 则每个对象都独立的拥有一套类的属性 （非static的）
+ 意味着，如果我们修改一个对象的属性a, 则不影响另外一个对象属性a的值
 */
 public class PersonTest {
 	public static void main(String[] args) {
