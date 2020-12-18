@@ -32,6 +32,12 @@ public class PersonTest {
 		Person p2 = new Person();
 		System.out.println(p2.name);
 		System.out.println(p2.isMale);
+		
+		Person p3 = p1;
+		System.out.println(p3.name);
+		
+		p3.age = 10;
+		System.out.println(p1.age);
 	}
 }
 
