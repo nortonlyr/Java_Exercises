@@ -27,6 +27,11 @@ public class PersonTest {
 		p1.eat();
 		p1.sleep();
 		p1.talk("Chinese");
+		
+		
+		Person p2 = new Person();
+		System.out.println(p2.name);
+		System.out.println(p2.isMale);
 	}
 }
 
