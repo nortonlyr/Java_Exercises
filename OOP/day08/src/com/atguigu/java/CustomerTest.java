@@ -6,6 +6,8 @@ public class CustomerTest {
 		Customer cust1 = new Customer();
 		
 		cust1.eat();
+		
+		cust1.sleep(8);
 	}
 }
 
@@ -26,8 +28,13 @@ class Customer{
 	}
 	
 	public String getName(){
-		return name;
+		
+		if(age > 18){
+			return name;
+		}else{
+		return "Tom";
 	}
+}
 	
 	public String getNation(String nation){
 		String info = "我的國籍是： " + nation;
