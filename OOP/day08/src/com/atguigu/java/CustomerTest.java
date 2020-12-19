@@ -40,4 +40,11 @@ class Customer{
 		String info = "我的國籍是： " + nation;
 		return info;
 	}
+	
+	//體會形參是否需要設置的問題
+	public void info(){
+
+			
+		}
+	}
 }
