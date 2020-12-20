@@ -5,8 +5,14 @@ public class CircleTest {
 		
 		Circle c1 = new Circle();
 		
-		double area = c1.findArea();
-		System.out.println(area);
+		c1.radius = 2.1;
+		
+		//對應方法1
+//		double area = c1.findArea();
+//		System.out.println(area);
+		
+		//對應方法2：
+		c1.findArea();
 	}
 }
 
@@ -16,9 +22,16 @@ class Circle{
 	double radius;
 	
 	//求圓的面積
-	public double findArea(){
+	//方法1：
+//	public double findArea(){
+//		double area = Math.PI * radius * radius;
+//		return area;
+//	}
+	
+	//方法2：
+	public void findArea(){
 		double area = Math.PI * radius * radius;
-		return area;
+		System.out.println("面積為： " + area);
 	}
 	
 }

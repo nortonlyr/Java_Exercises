@@ -19,7 +19,7 @@ public class PersonTest {
 		Person p2 = new Person();
 		p2.showAge();
 		p2.addAge(10);
-		p2.showAge();//10
+		p2.showAge();
 		
 		p1.showAge();//20
 	}
